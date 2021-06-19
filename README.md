@@ -29,10 +29,16 @@ git clone https://github.com/duongdanghung20/audio-steganography-system
 ## Usage
 In your terminal:
 * Go to the directory the directory of this project
-* Run this command: 
-``` 
-python3 main.py 
-```
+* Run this command:
+    * Python 2:
+    ```
+    python main.py
+    ```
+
+    * Python 3:
+    ``` 
+    python3 main.py 
+    ```
 
 ## Credits
 | Student name       | Student ID    |Credit|
