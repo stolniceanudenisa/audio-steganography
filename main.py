@@ -43,6 +43,16 @@ def decode():
     decode_window.mainloop()
 
 
+def exit_program():
+    confirm = messagebox.askyesno("Exit", "Are you sure you want to exit?", parent=root)
+    if confirm:
+        root.destroy()
+        exit()
+
+
+root.protocol("WM_DELETE_WINDOW", exit_program)
+
+
 class Main_screen:
     def __init__(self, parent=None):
         self.parent = parent
