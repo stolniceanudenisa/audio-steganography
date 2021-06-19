@@ -35,10 +35,12 @@ python3 main.py
 ```
 
 ## Credits
-* Duong Dang Hung	BI10-073 (25%)
-* Ta Quang Hieu		BI10-065 (25%)
-* Nguyen Hoang Minh	BI10-112 (25%)
-* Nguyen Quy Minh	BI10-118 (25%)
+| Student name       | Student ID    |Credit|
+| :-----------------:|:-------------:|:----:|
+| Duong Dang Hung    | BI10-073      | 25% |
+| Ta Quang Hieu      | BI10-065      | 25% |
+| Nguyen Hoang Minh  | BI10-112      | 25% |
+| Nguyen Quy Minh    | BI10-118      | 25% |
 
 
 ## References
