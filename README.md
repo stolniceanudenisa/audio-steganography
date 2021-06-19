@@ -7,6 +7,19 @@
     * Least Significant Bit
     * Phase Coding
 
+## Visuals
+* Main screen:
+
+![Main screen](./images/main.png?raw=true "Main screen")
+
+* Encode screen:
+
+![Main screen](./images/encode.png?raw=true "Main screen")
+
+* Decode screen:
+
+![Main screen](./images/decode.png?raw=true "Main screen")
+
 ## Installation
 Run this command your terminal: 
 ``` 
