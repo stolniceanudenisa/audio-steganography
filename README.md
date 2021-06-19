@@ -41,12 +41,12 @@ In your terminal:
     ```
 
 ## Credits
-| Student name       | Student ID    |Credit|
-| :-----------------:|:-------------:|:----:|
-| Duong Dang Hung    | BI10-073      | 25% |
-| Ta Quang Hieu      | BI10-065      | 25% |
-| Nguyen Hoang Minh  | BI10-112      | 25% |
-| Nguyen Quy Minh    | BI10-118      | 25% |
+| Student name       | Student ID    | GitHub account                                      | Credit |
+| :-----------------:|:-------------:|:---------------------------------------------------:|:------:|
+| Duong Dang Hung    | BI10-073      |[duongdanghung20](https://github.com/duongdanghung20)| 25%    |
+| Ta Quang Hieu      | BI10-065      |[ctn3m0](https://github.com/ctn3m0)                  | 25%    |
+| Nguyen Hoang Minh  | BI10-112      |[hm1905](https://github.com/hm1905)                  | 25%    |
+| Nguyen Quy Minh    | BI10-118      |[34wizrd](https://github.com/34wizrd)                | 25%    |
 
 
 ## References
