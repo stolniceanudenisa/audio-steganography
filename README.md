@@ -28,7 +28,7 @@ git clone https://github.com/duongdanghung20/audio-steganography-system
 
 ## Usage
 In your terminal:
-* Go to the directory the directory of this project
+* Go to the directory this project
 * Run this command:
     * Python 2:
     ```
