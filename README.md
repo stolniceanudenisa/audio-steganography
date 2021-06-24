@@ -21,7 +21,7 @@
 ![Main screen](./images/decode.png?raw=true "Main screen")
 
 ## Installation
-Run this command your terminal: 
+Run this command in your terminal: 
 ``` 
 git clone https://github.com/duongdanghung20/audio-steganography-system 
 ```
