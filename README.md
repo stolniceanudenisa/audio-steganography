@@ -1,4 +1,26 @@
-# Audio Steganography
+
+
+python -m venv .venv
+
+.\venv\Scripts\Activate.ps1
+
+python -m pip install --upgrade pip setuptools wheel
+
+
+pip install -r requirements.txt
+
+
+Run the backend API
+
+# From an activated venv in the repo root
+.\backend\run.bat
+# or equivalently:
+# uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000
+
+
+
+
+<!-- # Audio Steganography
 
 ## Description
 * __Audio Steganography__: The technique to embed text into audio file without loss of audio quality, and while extraction can get the embedded text back.
@@ -60,4 +82,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) -->

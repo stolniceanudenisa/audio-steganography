@@ -1,0 +1,121 @@
+ 
+.split-grid {
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Both columns same width */
+.encode-col,
+.decode-col {
+  flex: 0 0 48%;   /* equal width for both */
+  max-width: 48%;
+}
+
+/* Card appearance */
+.split-card {
+  background: #fffefc;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  width: 100%;
+  margin-top: 100px;
+  max-width: 420px;
+  min-height: 460px;
+}
+ 
+/* Card titles */
+ion-card-title {
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Inputs and textarea */
+ion-item {
+  --background: transparent;
+  margin-bottom: 10px;
+}
+
+ion-textarea {
+  --padding-top: 8px;
+  --padding-start: 8px;
+  --padding-end: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background: #fffefc;
+  font-size: 0.95rem;
+}
+
+.secret-text-item {
+  margin-top: 2px;
+}
+
+.secret-text-item ion-label[position="stacked"] {
+  display: block;
+  margin-bottom: 9px;
+}
+
+
+/* Audio preview */
+audio {
+  width: 100%;
+  margin-top: 0.6rem;
+  border-radius: 10px;
+  background: #fffefc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+ion-button {
+  --background: var(--cream-light);
+  --color: var(--text-dark);
+  --border-radius: 12px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Upload button */
+.upload-btn {
+  display: inline-block;
+  background: var(--cream-light, #f8f4e3);
+  color: var(--text-dark, #333);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-top: 8px;
+}
+
+.upload-btn:hover {
+  background: #f0e8d5;
+}
+
+/* ✅ Hide default input to prevent duplicate "Choose File" button */
+input[type="file"] {
+  display: none;
+}
+
+/* Spacing between input fields */
+.file-upload {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+ion-item + ion-item {
+  margin-top: 10px;
+}
+
+/* Responsive stacking */
+@media (max-width: 768px) {
+  .split-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .split-card {
+    max-width: 90%;
+    min-height: auto;
+  }
+}
