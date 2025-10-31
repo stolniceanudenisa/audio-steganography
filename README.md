@@ -1,4 +1,4 @@
-
+<!-- 
 
 python -m venv .venv
 
@@ -15,7 +15,11 @@ Run the backend API
 # From an activated venv in the repo root
 .\backend\run.bat
 # or equivalently:
-# uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000
+# uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000 -->
+
+
+
+
 
 
 
